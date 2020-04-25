@@ -1,8 +1,39 @@
 body{
-   background-image: url("Back Of Cards.png");
+   background-color:lightblue;
 }
-table{
-  padding-top: 25px;
-  border: 5px solid black;
-  margin: 35px;
+table { 
+	border-top: solid; 
+	border-bottom: solid;
+	border-collapse: collapse; 
+	width: 100%;
+	height: 100%;
+    background-color:white;
+}
+table td { 
+	border-left:solid; 
+}
+table td:first-child { 
+	border-left: none; 
+}
+table tr{
+	border-top: solid;
+}
+table tr:first-child{
+	border-top: none;
+    background-color:white;
+    font-size:200%;
+    text-align:center;
+
+}
+table tr:nth-child(odd) {
+    background-color:lightgray;
+}
+.searchBox {
+	border: solid;
+	margin: auto;
+	background-color: lightblue;
+}
+.searchBar{
+	display: flex;
+	align-items: right;
 }
