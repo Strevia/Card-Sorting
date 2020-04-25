@@ -1,1 +1,8 @@
-
+body{
+   background-image: url("Back Of Cards.png");
+}
+table{
+  padding-top: 25px;
+  border: 5px solid black;
+  margin: 35px;
+}
